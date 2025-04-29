@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: orange;
+    justify-content:space-between;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    padding: 10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration:none;
+    color: white;
+}
+section.home{
+    background: url(https://tse1.mm.bing.net/th?id=OIP.N_52WK0VgGacDf5br2XdTwHaE8&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    padding-top: 100px;
+}
+section.home div{
+    text-align: center;
+    color: black;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+section.home .hello{
+    font-size: 30px;
+}
+section.home a{
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.home a:hover{
+    box-shadow: 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255), 0 0 60px rgb(255, 255, 255);
+    transform: translateY(-5px);
+}
+section.about{
+    background-color: orange;
+    height: 600px;
+    padding-top: 100px;
+}
+section.about div{
+    color: black;
+    text-align:center;
+    margin: auto;
+    width: 70%;
+}
+section.about img{
+    max-width: 50%;
+    margin: 0 auto;
+    height: auto;
+}
+section.product{
+    background: url(https://tse1.mm.bing.net/th?id=OIP.N_52WK0VgGacDf5br2XdTwHaE8&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1200px;
+}
+section.product .container{
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+section.product .container .card{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 400px;
+    margin: 15px;
+}
+img{
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+section.product .container .card a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.product .container .card a:hover{
+    box-shadow: 0 0 20px rgb(245, 245, 144), 0 0 40px rgb(235, 245, 151), 0 0 60px rgb(248, 250, 153);
+    transform: translateY(-5px);
+}
+section.contact{
+    background-color: orange;
+    height: 500px;
+    text-align: center;
+}
+section.contact li{
+    margin: auto;
+    text-align: auto;
+    color: black;
+    list-style-type: none;
+}
+section.contact h1{
+    text-align:center
+}
+footer{
+    background-color: rgb(253, 174, 26);
+    height: 50px;
+}
+footer div{
+    text-align: center;
+    color: black;
+}
