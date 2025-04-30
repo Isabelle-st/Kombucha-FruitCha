@@ -18,6 +18,10 @@ nav a{
     text-decoration:none;
     color: white;
 }
+nav a:hover{
+    box-shadow: 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255), 0 0 60px rgb(255, 255, 255);
+    transform: translateY(-5px);
+}
 section.home{
     background: url(https://tse1.mm.bing.net/th?id=OIP.N_52WK0VgGacDf5br2XdTwHaE8&pid=Api&P=0&h=220);
     background-size: cover;
@@ -102,7 +106,7 @@ section.product .container .card a:hover{
 }
 section.contact{
     background-color: orange;
-    height: 500px;
+    height: 200px;
     text-align: center;
 }
 section.contact li{
